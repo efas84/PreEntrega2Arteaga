@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#indeximg{
+    width: 100%;
+}
+.class {
+    text-align: justify;
+}
+body{
+    background-image: url("../imgs/gg2_1.jpg");
+    background-size: cover;
+    background-color: black;
+    
+}
+.fa {
+    padding: 5px;
+    font-size: 50px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 2px;
+    border-radius: 20%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+      
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+h1 {
+    text-align: center;
+    background-color: black;
+    color: gold;
+}
+
+.IndexNav{
+    list-style-type: none;
+}
+.IndexNav ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+.IndexNav li {
+    float: left
+}
+
+.IndexNav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #333
+}
+
+
+li a:visited{
+    color: white;
+}
+li a:hover{
+    color:black
+}
+.link a:visited{
+    color: white;
+}
+.link a:hover{
+    color: black;
+}
+
+li{
+    font-size: large;
+}
+
+p{
+    color: white;
+}
+
+.colaboraciones{
+    text-align: center;
+    color: gold;
+    font-style: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+}
+
+.presentacion{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+body{
+    color:white
+}
+
+.videoindex h2{
+    display: block;
+    color: white;
+    text-align: center;
+}
+.sociales {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+    
+}
+tabla, td, th {
+    border: 2px solid black;
+  }
+  td {
+    text-align: center;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto ;
+    gap: 10px;
+    padding: 10px;
+  }
+.ColabImg{
+    display: inline;
+
+}
+
+@media screen and (max-width: 700px){
+    body{
+        background-image: url("../imgs/fondogg.png");
+    }
+    .item1{
+        background-color: red;
+    }
+}

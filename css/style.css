@@ -90,8 +90,9 @@ h1 {
 .ColabImg {
   display: inline; }
 
-tabla, td, th {
-  border: 2px solid black; }
+.tabla, td, th {
+  border: 3px solid rgb(240, 222, 222); 
+  margin: auto;}
 
 td {
   text-align: center; }
@@ -106,7 +107,7 @@ td {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%; }
+  width: 50%; }
 
 .colaboraciones {
   text-align: center;
@@ -117,3 +118,4 @@ td {
 
 p {
   color: white; }
+  
